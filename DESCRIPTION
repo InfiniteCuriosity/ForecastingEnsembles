@@ -1,0 +1,35 @@
+Package: ForecastingEnsembles
+Type: Package
+Title: Time Series Forecasting Using Individual Models and Ensembles of Models
+Version: 0.1.0
+Authors@R: 
+    person("Russ", "Conte", , "russconte@mac.com", role = c("aut", "cre"))
+Description: Runs multiple individual time series models, and combines them into an ensembles of time series models.
+License: MIT + file LICENSE
+Depends:
+    doParallel,
+    dplyr,
+    fable,
+    fabletools,
+    fable.prophet,
+    feasts,
+    ggplot2,
+    gt,
+    magrittr,
+    parallel,
+    readr,
+    stats,
+    tibble,
+    tidyr,
+    tsibble,
+    utils,
+    R (>= 2.10)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Website: http://forecastingensembles.com/
+Github: https://github.com/InfiniteCuriosity/ForecastingEnsembles
