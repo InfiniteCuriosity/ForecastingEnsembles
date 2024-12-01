@@ -33,3 +33,5 @@ Suggests:
 VignetteBuilder: knitr
 Website: http://forecastingensembles.com/
 Github: https://github.com/InfiniteCuriosity/ForecastingEnsembles
+URL: https://github.com/InfiniteCuriosity/ForecastingEnsembles
+BugReports: https://github.com/InfiniteCuriosity/ForecastingEnsembles/issues
