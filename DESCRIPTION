@@ -1,7 +1,7 @@
 Package: ForecastingEnsembles
 Type: Package
 Title: Time Series Forecasting Using Individual Models and Ensembles of Models
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person("Russ", "Conte", , "russconte@mac.com", role = c("aut", "cre"))
 Description: Runs multiple individual time series models, and combines them into an ensembles of time series models.
@@ -13,6 +13,7 @@ Depends:
     fabletools,
     fable.prophet,
     feasts,
+    fracdiff,
     ggplot2,
     gt,
     magrittr,
@@ -22,6 +23,7 @@ Depends:
     tibble,
     tidyr,
     tsibble,
+    urca,
     utils,
     R (>= 2.10)
 Encoding: UTF-8
