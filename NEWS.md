@@ -1,3 +1,5 @@
+# ForecastingEnsembles 0.3.0
+
 # ForecastingEnsembles 0.2.0
 
 * Initial CRAN submission.
