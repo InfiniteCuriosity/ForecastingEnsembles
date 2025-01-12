@@ -36,25 +36,3 @@ plot of best actual vs seasonally adjusted
 \description{
 forecasting—function to perform time series analysis and return the results to the user.
 }
-\examples{
-Forecasting(time_series_name = "Oct 2024 All nonfarm",
-  time_series_data = Oct_2024_all_nonfarm,
-  train_amount = 0.60,
-  number_of_intervals_to_forecast = 1,
-  use_parallel = "Y",
-  time_interval = "M")
-
-Forecasting(time_series_name = "Oct 2024 Hourly pay",
-  time_series_data = Oct_2024_avg_hourly_pay,
-  train_amount = 0.60,
-  number_of_intervals_to_forecast = 1,
-  use_parallel = "Y",
-  time_interval = "M")
-
-Forecasting(time_series_name = "Oct 2024 Unemployment",
-  time_series_data = Oct_2024_unemployment,
-  train_amount = 0.60,
-  number_of_intervals_to_forecast = 1,
-  use_parallel = "Y",
-  time_interval = "M")
-}

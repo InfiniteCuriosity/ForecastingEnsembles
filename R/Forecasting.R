@@ -18,6 +18,7 @@
 #' @importFrom fabletools accuracy as_tsibble augment autoplot components features report
 #' @importFrom fable.prophet prophet
 #' @importFrom feasts gg_tsresiduals STL
+#' @importFrom fracdiff fracdiff
 #' @importFrom ggplot2 aes facet_grid geom_line geom_hline geom_abline geom_point ggplot ggtitle guides labs scale_x_continuous scale_y_continuous theme xlab ylab
 #' @importFrom gt gt tab_header fmt_number fmt_percent
 #' @importFrom magrittr %>%
@@ -27,29 +28,9 @@
 #' @importFrom tibble tibble as_tibble
 #' @importFrom tidyr pivot_longer drop_na
 #' @importFrom tsibble tsibble
+#' @importFrom urca ur.kpss
 #' @importFrom utils tail head
 
-#' @examples
-#' Forecasting(time_series_name = "Oct 2024 All nonfarm",
-#'   time_series_data = Oct_2024_all_nonfarm,
-#'   train_amount = 0.60,
-#'   number_of_intervals_to_forecast = 1,
-#'   use_parallel = "Y",
-#'   time_interval = "M")
-#'
-#' Forecasting(time_series_name = "Oct 2024 Hourly pay",
-#'   time_series_data = Oct_2024_avg_hourly_pay,
-#'   train_amount = 0.60,
-#'   number_of_intervals_to_forecast = 1,
-#'   use_parallel = "Y",
-#'   time_interval = "M")
-#'
-#' Forecasting(time_series_name = "Oct 2024 Unemployment",
-#'   time_series_data = Oct_2024_unemployment,
-#'   train_amount = 0.60,
-#'   number_of_intervals_to_forecast = 1,
-#'   use_parallel = "Y",
-#'   time_interval = "M")
 
 Forecasting <- function(time_series_name, time_series_data, train_amount, number_of_intervals_to_forecast, use_parallel = c("Y", "N"), time_interval = c("Q", "M", "W")) {
   use_parallel <- 0
