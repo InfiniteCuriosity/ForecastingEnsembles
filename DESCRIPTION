@@ -1,9 +1,9 @@
 Package: ForecastingEnsembles
 Type: Package
 Title: Time Series Forecasting Using Individual Models and Ensembles of Models
-Version: 0.3.0
+Version: 0.4.0
 Authors@R: 
-    person("Russ", "Conte", , "russconte@mac.com", role = c("aut", "cre"))
+    person("Russ", "Conte", , "russconte@mac.com", role = c("aut", "cre", "cph"))
 Description: Runs multiple individual time series models, and combines them into an ensembles of time series models.
 License: MIT + file LICENSE
 Depends:
