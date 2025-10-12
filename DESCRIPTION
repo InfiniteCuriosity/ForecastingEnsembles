@@ -9,6 +9,7 @@ Description: Runs multiple individual time series models, and combines them into
     For example, the package was used to predict the winning men's and women's time for the 2024 London Marathon.
 License: MIT + file LICENSE
 Depends:
+    distributional,
     doParallel,
     dplyr,
     fable,
@@ -18,9 +19,11 @@ Depends:
     fracdiff,
     ggplot2,
     gt,
+    lubridate,
     magrittr,
     parallel,
     readr,
+    scales,
     stats,
     tibble,
     tidyr,
