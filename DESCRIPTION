@@ -1,7 +1,7 @@
 Package: ForecastingEnsembles
 Type: Package
 Title: Time Series Forecasting Using 23 Individual Models
-Version: 0.5.0
+Version: 0.5.1
 Authors@R: 
     person("Russ", "Conte", , "russconte@mac.com", role = c("aut", "cre", "cph"))
 Description: Runs multiple individual time series models, and combines them into an ensembles of time series models. This is mainly used to predict the results of the monthly labor market report from the 
